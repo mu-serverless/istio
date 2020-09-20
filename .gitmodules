@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/mu-serverless/api.git
+[submodule "go-control-plane"]
+	path = go-control-plane
+	url = https://github.com/mu-serverless/go-control-plane.git

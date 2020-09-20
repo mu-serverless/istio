@@ -20,8 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	//cluster "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
-	cluster "github.com/mu-serverless/go-control-plane/envoy/config/cluster/v3"
+	cluster "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	endpoint "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"
 	auth "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
@@ -31,8 +30,7 @@ import (
 	"github.com/golang/protobuf/ptypes/wrappers"
 
 	meshconfig "istio.io/api/mesh/v1alpha1"
-	// networking "istio.io/api/networking/v1alpha3"
-	networking "github.com/api/networking/v1alpha3"
+	networking "istio.io/api/networking/v1alpha3"
 	"istio.io/istio/pilot/pkg/features"
 	"istio.io/istio/pilot/pkg/model"
 	"istio.io/istio/pilot/pkg/networking/core/v1alpha3/envoyfilter"
