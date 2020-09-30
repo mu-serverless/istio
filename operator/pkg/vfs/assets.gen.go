@@ -785,6 +785,7 @@ spec:
                             - LEAST_CONN
                             - RANDOM
                             - PASSTHROUGH
+			    - PREDICTIVE_LEAST_CONN
                             type: string
                         type: object
                       outlierDetection:
@@ -1023,6 +1024,7 @@ spec:
                                   - LEAST_CONN
                                   - RANDOM
                                   - PASSTHROUGH
+				  - PREDICTIVE_LEAST_CONN
                                   type: string
                               type: object
                             outlierDetection:
@@ -1335,6 +1337,7 @@ spec:
                       - LEAST_CONN
                       - RANDOM
                       - PASSTHROUGH
+		      - PREDICTIVE_LEAST_CONN
                       type: string
                   type: object
                 outlierDetection:
@@ -1569,6 +1572,7 @@ spec:
                             - LEAST_CONN
                             - RANDOM
                             - PASSTHROUGH
+			    - PREDICTIVE_LEAST_CONN
                             type: string
                         type: object
                       outlierDetection:
@@ -4272,6 +4276,7 @@ spec:
                             - LEAST_CONN
                             - RANDOM
                             - PASSTHROUGH
+			    - PREDICTIVE_LEAST_CONN
                             type: string
                         type: object
                       outlierDetection:
@@ -4510,6 +4515,7 @@ spec:
                                   - LEAST_CONN
                                   - RANDOM
                                   - PASSTHROUGH
+				  - PREDICTIVE_LEAST_CONN
                                   type: string
                               type: object
                             outlierDetection:
@@ -4822,6 +4828,7 @@ spec:
                       - LEAST_CONN
                       - RANDOM
                       - PASSTHROUGH
+		      - PREDICTIVE_LEAST_CONN
                       type: string
                   type: object
                 outlierDetection:
@@ -5056,6 +5063,7 @@ spec:
                             - LEAST_CONN
                             - RANDOM
                             - PASSTHROUGH
+			    - PREDICTIVE_LEAST_CONN
                             type: string
                         type: object
                       outlierDetection:
