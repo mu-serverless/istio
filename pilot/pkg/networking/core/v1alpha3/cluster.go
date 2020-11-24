@@ -48,8 +48,8 @@ import (
 const (
 	// DefaultLbType set to round robin
 	// DefaultLbType = networking.LoadBalancerSettings_ROUND_ROBIN
-	// DefaultLbType = networking.LoadBalancerSettings_PREDICTIVE_LEAST_CONN
-	DefaultLbType = networking.LoadBalancerSettings_LEAST_CONN
+	   DefaultLbType = networking.LoadBalancerSettings_PREDICTIVE_LEAST_CONN
+	// DefaultLbType = networking.LoadBalancerSettings_LEAST_CONN
 )
 
 var (

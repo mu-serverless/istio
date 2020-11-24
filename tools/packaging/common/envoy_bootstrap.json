@@ -117,6 +117,9 @@
           {{- end }}
           {
           "prefix": "component"
+          },
+	  {
+	  "prefix": "cluster.outbound|80|"
           }
         ]
       }
