@@ -523,6 +523,15 @@
                             "route": {
                               "cluster": "prometheus_stats"
                             }
+                          },
+			  
+                          {
+                            "match": {
+                              "prefix": "/stats"
+                            },
+                            "route": {
+                              "cluster": "prometheus_stats"
+                            }
                           }
                         ]
                       }
